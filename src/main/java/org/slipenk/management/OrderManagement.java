@@ -33,7 +33,7 @@ public class OrderManagement {
     private static final String ERROR_MESSAGE = "Problem with data. Check the input file.";
     private final TreeMap<Integer, Integer> askMap = new TreeMap<>();
     private final TreeMap<Integer, Integer> bidMap = new TreeMap<>();
-    StringBuilder outputBuilder = new StringBuilder();
+    private final StringBuilder outputBuilder = new StringBuilder();
 
     public void getJob() throws IOException {
 
