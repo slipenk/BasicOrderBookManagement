@@ -14,6 +14,7 @@ public class Main {
             orderManagement.getJob();
         } catch (Exception e) {
             logger.log(Level.WARNING, e.getMessage());
+            Thread.currentThread().interrupt();
         }
     }
 }
